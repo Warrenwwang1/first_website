@@ -1,0 +1,24 @@
+/* .box {
+    position: relative;
+    display: block;
+  
+    margin: 25px 15px 0 15px;
+    width: 800px;
+    height: 380px;
+  } */
+.header {
+  font-family:Sans-serif;
+  font-style: lighter;
+  font-size: 48px;
+  text-align: right;
+
+}
+.text {
+  text-align: right;
+  font-family: "Calibri";
+  font-style: lighter;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 18px;
+
+}
