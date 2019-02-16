@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Headers from './Headers.js';
-import Display from './Display.js';
+import Projects_Text from './Projects_Text.js';
 import Bubble from './Bubble.js';
 import profPic from './assets/piratebaby.png';
 import cb_title from './assets/codebase_icon.png'
@@ -87,17 +87,18 @@ class App extends Component {
 
           <div className = "Proj_Contents"> 
             <div className = "images">
-              <img className = 'bogosort_pic' src = {bogosort_icon} width = "490" height = "250"></img>
+              <img className = 'bogosort_pic' src = {bogosort_icon} width = "460" height = "250"></img>
               <div className = "app_images">
                 <img className = "app_1" src = {app1_icon} width = "220" height = "400"></img>
                 <img className = "app_2" src = {app2_icon} width = "220" height = "400"></img>
+                </div>
 
               </div>
-              <div className = "Proj_words">
-                <Display className = "bogosort" header = "Web Design with p5" text = "Used the p5 library to write a web app in javascript that demonstrated the heinously inefficient sorting algorithm: bogosort"/>
-                <Display className = "app" header = "iOS App Development" text = "Used swift to write my own iOS app that integrated locationing, google maps, and camera functionality for users to save photos to locations in a visual interface"/>
+              <div className = "Proj_Words">
+                <Projects_Text className = "bogosort" header = "Web Design with p5" text = "Used the p5 library to write a web app in javascript that demonstrated the heinously inefficient sorting algorithm: bogosort"/>
+                <Projects_Text className = "app" header = "iOS App Development" text = "Used swift to write my own iOS app that integrated locationing, google maps, and camera functionality for users to save photos to locations in a visual interface"/>
               
-              <div className = "connect">
+                <div className = "connect">
                 <h className = "connect_text">Let's Connect!</h>
                 <div className = "connect_icons">
                   <img className = 'resume' src = {resume} width = "90" height = "90"></img>
@@ -116,7 +117,6 @@ class App extends Component {
 
 
         </div>
-      </div>
     );
   }
 }

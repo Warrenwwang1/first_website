@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Display.css';
+import './Projects_Text.css';
 
 
-class Display extends Component {
+class Projects_Text extends Component {
     render() {
         const {header, text } = this.props;
             return (
@@ -14,4 +14,4 @@ class Display extends Component {
     }
 }
 
-export default Display;
+export default Projects_Text;
