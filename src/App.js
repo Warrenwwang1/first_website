@@ -129,7 +129,9 @@ class App extends Component {
           <div className="Proj_Contents">
 
             <div className="images">
-              <img className='bogosort_pic' src={bogosort_icon} width="460" height="250"></img>
+            <a className = "bogosort_pic" width="460" height="250" href = "https://warrenwwang1.github.io/p5/empty-example/">
+              <img className='bogosort_pic' src={bogosort_icon} width="460" height="250"/>
+              </a>
               <div className="app_images">
                 <img className="app_1" src={app1_icon} width="220" height="400"></img>
                 <img className="app_2" src={app2_icon} width="220" height="400"></img>
