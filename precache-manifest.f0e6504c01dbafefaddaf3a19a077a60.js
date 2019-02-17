@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/app1.12119420.png"
   },
   {
-    "revision": "832d63ff7fee44915346",
-    "url": "/static/css/main.855b9671.chunk.css"
+    "revision": "6911c5434c58a2636762",
+    "url": "/static/css/main.d860716e.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/bogosort.5e48a10e.png"
   },
   {
-    "revision": "832d63ff7fee44915346",
-    "url": "/static/js/main.832d63ff.chunk.js"
+    "revision": "6911c5434c58a2636762",
+    "url": "/static/js/main.6911c543.chunk.js"
   },
   {
     "revision": "dd41d27aba8c34b70dcb37309f65742a",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/Montserrat-Light.100b38fa.ttf"
   },
   {
-    "revision": "20b2b7463e776d2c03467ed6da60f87e",
+    "revision": "a67a2c0c632738036795f34cec4d08d3",
     "url": "/index.html"
   }
 ];
