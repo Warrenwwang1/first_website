@@ -1,0 +1,23 @@
+{
+  "main.css": "/static/css/main.855b9671.chunk.css",
+  "main.js": "/static/js/main.832d63ff.chunk.js",
+  "main.js.map": "/static/js/main.832d63ff.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.2631361b.chunk.js": "/static/js/2.2631361b.chunk.js",
+  "static/js/2.2631361b.chunk.js.map": "/static/js/2.2631361b.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.4740aff1b0d705108accc20ebccdb7b8.js": "/precache-manifest.4740aff1b0d705108accc20ebccdb7b8.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.855b9671.chunk.css.map": "/static/css/main.855b9671.chunk.css.map",
+  "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.100b38fa.ttf",
+  "static/media/app1.png": "/static/media/app1.12119420.png",
+  "static/media/app2.png": "/static/media/app2.dd41d27a.png",
+  "static/media/bogosort.png": "/static/media/bogosort.5e48a10e.png",
+  "static/media/codebase_icon.png": "/static/media/codebase_icon.c20eeb3e.png",
+  "static/media/email_icon.png": "/static/media/email_icon.db1d9969.png",
+  "static/media/github_icon.png": "/static/media/github_icon.650977d7.png",
+  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+  "static/media/piratebaby.png": "/static/media/piratebaby.68692a03.png",
+  "static/media/resume_icon.png": "/static/media/resume_icon.34ff10ae.png"
+}
