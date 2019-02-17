@@ -4,10 +4,94 @@
   align-items: center;
   background-color: #E6F4F4;
   width: 100%;
-  height: 3000px;
-  z-index:-10
+  height: 2900px;
+  z-index:-10;
+  stroke-width: 20px;
 
 
+}
+.line_about {
+  color: black;
+  z-index:-4;
+  margin-top:-2000px;
+  top:-700px;
+  margin-bottom:160px;
+  stroke-width: 20px;
+  margin-right:60px;
+}
+
+.line_exp {
+  color: black;
+  z-index:-10;
+  stroke-width: 20px;
+  margin-bottom:100px;
+  margin-top:-700px;
+  margin-bottom:215px;
+  margin-left:-555px;
+}
+
+.line_exp_contents {
+  color: black;
+  z-index: 1000;
+  stroke-width: 20px;
+  margin-left:135px;
+  margin-right:-135px;
+  margin-top: -44px;
+
+}
+
+.langskills_lines {
+  display: flex;
+  flex-direction: column;
+  margin-bottom:200px;
+  margin-top: -70px;
+  margin-right:00px;
+  margin-left:650px;
+}
+
+.line_lang {
+  margin-bottom:270px;
+}
+
+.line_skills {
+  margin-bottom:340px;
+}
+
+.line_circle {
+  margin-left:-118px;
+}
+
+.line_exp_right {
+  color: black;
+  z-index: 1000;
+  stroke-width: 20px;
+  margin-left:114px;
+  margin-right:-135px;
+  margin-top: -44px;
+
+}
+
+.line_proj {
+  position: relative;
+  margin-bottom: 500px;
+  margin-top:-143px;
+  z-index:-2;
+  margin-left:-590px;
+}
+
+.line_proj_section {
+  color: black;
+  z-index: 1000;
+  stroke-width: 20px;
+  margin-left:56px;
+  margin-right:-135px;
+  margin-top: -45px;
+
+}
+
+.line_connect {
+  margin-left:80px;
+  margin-top:-50px;
 }
 
 .Name_Header {
@@ -88,6 +172,7 @@
   margin-top:340px;
   width:100%;
   height:500px;
+  stroke-width:20px;
   
 }
 
@@ -101,11 +186,13 @@
   align-items: center;
   text-align: center;
   font-size:80px;
-  margin-left:34%;
+  margin-left:484px;
 
 }
+
 .exp_title {
   position:relative;
+  z-index: 10;
   letter-spacing: 3px;
   top:10px;
   left: 30px;
@@ -113,10 +200,12 @@
 }
 .exp_bubble {
   position:relative;
-  z-index:-1;
+  z-index:-0;
   bottom:70px;
 
 }
+
+
 
 .Codebase_Section {
   margin-top: 80px;
@@ -196,7 +285,8 @@
 
 .Proj_Section {
   margin-top:500px;
-  width:100%
+  width:100%;
+  margin-left:-50px;
 
 }
 
@@ -210,7 +300,8 @@
   align-items: center;
   text-align: center;
   font-size:80px;
-  margin-left:37%;
+  margin-left:518px;
+  z-index:1;
 
 }
 .proj_title {
