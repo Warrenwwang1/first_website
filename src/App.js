@@ -22,7 +22,7 @@ class App extends Component {
     return (
 
       <div className="App">
-
+        <div className = "landing_pg">
         <div className="Name_Header">
 
           <div className="name">
@@ -47,15 +47,21 @@ class App extends Component {
           </svg>
         </div>
 
+        </div>
+
         <div className="Exp_Section">
           <div className="Exp_Header">
+
             <div className="exp_title">
               <Headers text="Experience" />
             </div>
+
             <Bubble className='exp_bubble' w={490} h={90} color="#C3E2E1" />
+
             <svg className="line_exp" height="1" width="1080">
               <line x1={0} y1={0} x2={1080} y2={0} stroke="black" />
             </svg>
+            
             <div className='langskills_lines'>
               <svg className="line_lang" height="1" width="80">
                 <line x1={0} y1={0} x2={80} y2={0} stroke="black" />
@@ -129,7 +135,9 @@ class App extends Component {
           <div className="Proj_Contents">
 
             <div className="images">
-              <img className='bogosort_pic' src={bogosort_icon} width="460" height="250"></img>
+            <a className = "bogosort_pic" pic = {bogosort_icon} width="460" height="250" href = "https://warrenwwang1.github.io/p5/empty-example/">
+              <img className='bogosort_pic' src={bogosort_icon} width="460" height="250"/>
+              </a>
               <div className="app_images">
                 <img className="app_1" src={app1_icon} width="220" height="400"></img>
                 <img className="app_2" src={app2_icon} width="220" height="400"></img>
