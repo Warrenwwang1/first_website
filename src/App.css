@@ -1,15 +1,23 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   position:relative;
   text-align: center;
   align-items: center;
-  background-color: #E6F4F4;
+  background-image: linear-gradient(white, #95CDCD); 
   width: 100%;
-  height: 2900px;
+  height: 500%;
   z-index:-10;
   stroke-width: 20px;
-
+  overflow-x: hidden;
+  font-family: "Calibri", sans-serif;
 
 }
+
 .line_about {
   color: black;
   z-index:-4;
@@ -21,6 +29,7 @@
 }
 
 .line_exp {
+  position: relative;
   color: black;
   z-index:-10;
   stroke-width: 20px;
@@ -94,14 +103,17 @@
   margin-top:-50px;
 }
 
+.landing_pg {
+  width:100%;
+  height:100%;
+}
+
 .Name_Header {
   position: relative;
 
   height: 100px;
-  width: 600px;
+  width: 100%;
   top: 0px;
-
-  justify-content: center;
   z-index: 0;
 }
 
@@ -158,6 +170,7 @@
   left:30px;
   bottom:490px;  
 }
+
 .about_text {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
@@ -171,7 +184,7 @@
 .Exp_Section {
   margin-top:340px;
   width:100%;
-  height:500px;
+  height:100%;
   stroke-width:20px;
   
 }
@@ -183,8 +196,7 @@
   font-family: sans-serif;
   font-weight: lighter;
   color:#2478AC;
-  align-items: center;
-  text-align: center;
+
   font-size:80px;
   margin-left:484px;
 
@@ -204,8 +216,6 @@
   bottom:70px;
 
 }
-
-
 
 .Codebase_Section {
   margin-top: 80px;
@@ -284,8 +294,9 @@
 }
 
 .Proj_Section {
-  margin-top:500px;
+  margin-top: -137px;
   width:100%;
+  height: 100%;
   margin-left:-50px;
 
 }
@@ -334,6 +345,7 @@
 }
 
 .Proj_Words{
+  z-index:10;
   font-size:30px;
   margin-top:120px;
   width:400px;
