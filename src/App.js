@@ -14,14 +14,20 @@ import resume from './assets/resume_icon.png';
 import email from './assets/email_icon.png';
 import git from './assets/github_icon.png';
 import LineTo from 'react-lineto';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+/*import dataaos from './aos';*/
 
 
 
 class App extends Component {
   render() {
+    AOS.init()
     return (
+      
 
       <div className="App">
+
         <div className = "landing_pg">
         <div className="Name_Header">
 
@@ -36,7 +42,7 @@ class App extends Component {
 
         </div>
         <div className="About">
-          <img className="profile_pic" src={profPic} width="260" height="260" />
+          <img data-aos = "fade" className="profile_pic" src={profPic} width="260" height="260" />
 
           <Bubble className='about_circle' w={350} h={350} color='#E6D6E3' />
           <p className='about_text'>I’m a student at UC Berkeley studing EECS. Here are a few thing’s I’ve done:</p>
@@ -49,14 +55,14 @@ class App extends Component {
 
         </div>
 
-        <div className="Exp_Section">
+        <div data-aos = "fade-up" data-aos-duration = "100000" className="Exp_Section">
           <div className="Exp_Header">
 
             <div className="exp_title">
               <Headers text="Experience" />
             </div>
 
-            <Bubble className='exp_bubble' w={490} h={90} color="#C3E2E1" />
+            <Bubble className='exp_bubble' w={490} h={90} color="white" />
 
             <svg className="line_exp" height="1" width="1080">
               <line x1={0} y1={0} x2={1080} y2={0} stroke="black" />
@@ -77,7 +83,7 @@ class App extends Component {
 
 
           </div>
-          <div className="Exp_Contents">
+          <div className="Exp_Contents" data-aos = "zoom-in">
             <svg className="line_exp_contents" height="1000" width="1">
               <line x1={0} y1={-1000} x2={0} y2={1000} stroke="black" />
             </svg>
@@ -124,7 +130,7 @@ class App extends Component {
             <div className="proj_title">
               <Headers text="Projects" />
             </div>
-            <Bubble className='proj_bubble' w={400} h={90} color="#C3E2E1" />
+            <Bubble className='proj_bubble' w={400} h={90} color="white" />
 
             <svg className="line_proj" height="1" width="1080">
               <line x1={50} y1={0} x2={1080} y2={0} stroke="black" />
@@ -148,7 +154,7 @@ class App extends Component {
               <Projects_Text className="bogosort" header="Web Design with p5" text="Used the p5 library to write a web app in javascript that demonstrated the heinously inefficient sorting algorithm: bogosort" />
               <Projects_Text className="app" header="iOS App Development" text="Used swift to write my own iOS app that integrated locationing, google maps, and camera functionality for users to save photos to locations in a visual interface" />
 
-              <div className="connect">
+              <div  className="connect">
 
                 <div className="line_connect">
                   <svg height="1" width="300">
@@ -175,9 +181,6 @@ class App extends Component {
 
           </div>
         </div>
-
-
-
 
       </div>
     );

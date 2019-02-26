@@ -1,15 +1,23 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   position:relative;
   text-align: center;
   align-items: center;
-  background-color: #E6F4F4;
+  background-image: linear-gradient(white, #95CDCD); 
   width: 100%;
   height: 500%;
   z-index:-10;
   stroke-width: 20px;
-
+  overflow-x: hidden;
+  font-family: "Calibri", sans-serif;
 
 }
+
 .line_about {
   color: black;
   z-index:-4;
@@ -209,8 +217,6 @@
 
 }
 
-
-
 .Codebase_Section {
   margin-top: 80px;
   width:300px;
@@ -339,6 +345,7 @@
 }
 
 .Proj_Words{
+  z-index:10;
   font-size:30px;
   margin-top:120px;
   width:400px;
